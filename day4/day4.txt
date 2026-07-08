@@ -1,0 +1,5 @@
+strings
+creating strings 
+string operations
+#upper(), lower(), title(), strip(), replace(), split(), join()
+number vs string
