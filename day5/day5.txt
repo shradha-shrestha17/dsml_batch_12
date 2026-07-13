@@ -1,0 +1,59 @@
+my_list=[10,20,30,40,50,60]
+
+#q1= [20,30,40]
+my_list[1:4]
+
+#q3 = [40,50,60]
+my_list[3:]
+
+#q4 = [10,30,50]
+my_list[0:5:2]
+
+#q5 = [60,50,40,30, 20,10]
+my_list[::-1]
+
+#q6 = [10,20,30,40,50,60]
+my_list[:]
+
+my_list.append("name")
+
+list=["dob", "gender", "age"]
+my_list.extend(list)
+
+my_list.insert(3, "address")
+my_list.index("dob")
+
+my_list.remove(30)
+my_list
+
+my_list.pop(3)
+my_list
+
+
+data=[10,30,40,60,30,20]
+data.count(10)
+data.sort()
+data.reverse()
+data1 = data.copy()
+data=[]
+data
+
+a=input("Enter a name")
+data.append(a)
+data
+
+b=input("Enter a address")
+data.append(b)
+data
+
+
+#pop operation
+data.pop()
+
+from collections import deque
+queue=deque(["Eric", "john", "michael"])
+queue.append("terry")
+queue.append("graham")
+queue.popleft()
+queue.popleft()
+queue
